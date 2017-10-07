@@ -1,0 +1,154 @@
+@font-face{
+    font-family: 'godofwar';
+    src:url(../fronts/GODOFWAR.TTF);
+}
+
+*{
+    margin:0; padding: 0;
+}
+.header{
+    min-height:60 px; width: 950px ;
+    background-color: red;
+    margin: 10px auto;
+}
+.header ul{
+    list-style: none;
+}
+
+.header ul li {
+    border-right: .5px solid white;
+    display: inline-block;
+}
+
+.header ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 18px 39.9px;
+    display: block;
+    transition: 1s;
+}
+.header ul li:last-child{
+    border-right: none;
+}
+.header ul li a:hover{
+    background-color: green;
+    transform: rotate(720deg)scale(1.1); 
+}
+
+.header ul li ul {
+    background-color: blue;
+    position: absolute;
+    width: 141px;
+    top: -9999px;
+    transition: 1s;
+}
+.header ul li:hover ul{
+    top: 70px;
+}
+.header ul li ul li {
+    border-bottom: 2px solid white;
+    border-right: none;
+}
+.header ul li ul li a {
+   padding: 20px 10px; 
+    font-size: 16px;
+    width: 122px;
+}
+.wrapper{
+    min-height: 650px;
+    width: 950px ;
+    margin: 0 auto;
+}
+.gallary{
+    min-height: 650px;
+    float: left;
+    width: 66%;background-color: aliceblue;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.sign_in{
+    float: right;
+    min-height: 285px;
+    width: 30%;
+    background-color: lightsteelblue;
+    padding: 12px 8px;
+    text-align: center;
+    transition: 2s;
+}
+.notice{
+    float: right;
+    min-height: 280px;
+    width: 30%;
+    background-color: lightsteelblue;
+    padding: 12px 8px;
+    margin-top: 10px;
+    text-align: center;
+}
+.single_image{
+    overflow: hidden;
+}
+.image{
+    width: 30%;
+    height: 173px;
+    margin: 1.4%;
+    float:left;
+    border: 1px solid green;
+    text-align: center;
+    font-family: 'godofwar';
+}
+.image img {
+    height: 150px;
+    width: 100%;
+    transition: 2s;
+}
+.image img:hover{
+    transform:scale(1.2);s
+}
+.sign_in:hover{
+    transform:scale(1.1);
+}
+.sign_in from input{
+    width: 80%;
+    background-color: transparent;
+    height: 25px;
+    border-radius: 5px;
+}
+.sign_in from input:last-child{
+    background-color: blue;
+    color: white;
+}
+footer{
+    overflow: hidden;
+    background-color: blue;
+    min-height: 64px;
+    width: 950px ;
+    margin: 10px auto;
+}
+.shanto{
+    width: 50%;
+    height: 20px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+    float: left;
+}
+red{
+    color: red;
+    font-size: 20px;
+}
+.social{
+    float: right;
+    width: 20%;
+    height: 20px;
+    margin-right: 20px;
+    margin-right: 20px;
+}
+.social a img{
+    padding: 20px 15px;
+    max-height: 25px;
+    width: 25px;
+}
